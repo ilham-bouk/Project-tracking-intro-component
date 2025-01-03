@@ -14,6 +14,7 @@ Thanks for checking out my solution of Project tracking intro component front-en
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -33,7 +34,7 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ### Links
 
-- Solution URL: [Solution URL]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/project-tracking-intro-component-solution-tl-yrA8B4J)
 - Live Site URL: [Live site URL](https://ilham-bouk.github.io/Project-tracking-intro-component/)
 
 ## My process
@@ -61,6 +62,6 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on [my solution](https://www.frontendmentor.io/solutions/project-tracking-intro-component-solution-tl-yrA8B4J). It definitely helps to find new ways to code and find easier solutions!
 
 **Happy coding!** ☺️🚀
