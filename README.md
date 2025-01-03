@@ -52,7 +52,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 ### Useful resources
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/)
 
 ## Author
 
