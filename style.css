@@ -1,0 +1,255 @@
+:root {
+  --red: hsl(0, 100%, 68%);
+  --very-dark-blue: hsl(230, 29%, 20%);
+  --dark-grayish-blue: hsl(230, 11%, 40%);
+  --grayish-blue: hsl(231, 7%, 65%);
+  --light-grayish-blue: hsl(207, 33%, 95%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Barlow", serif;
+  font-size: 18px;
+}
+h1, nav, button {
+  font-family: "Barlow Condensed", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+}
+main .background {
+  background-color: var(--light-grayish-blue);
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0 0 0 45px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  max-width: 1250px;
+  margin: auto;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: var(--very-dark-blue);
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+header nav ul li.dot {
+  background-color: var(--grayish-blue);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+header nav ul li.active a {
+  color: var(--grayish-blue);
+}
+header nav .toggle {
+  display: none;
+  cursor: pointer;
+}
+header nav .toggle img:last-of-type {
+  display: none;
+}
+header nav.open .toggle img:last-of-type {
+  display: flex;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  max-width: 1250px;
+  margin: auto;
+  height: 80vh;
+}
+section article {
+  padding: 0 100px;
+  width: 45vw;
+}
+@media (max-width: 1400px) {
+  section article {
+    padding: 0 0 0 100px;
+    width: 50vw;
+  }
+}
+section article .subTitle {
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+section article .subTitle span:first-of-type {
+  background-color: var(--very-dark-blue);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+section article .subTitle span:last-of-type {
+  color: var(--grayish-blue);
+  letter-spacing: 3px;
+  padding-left: 10px;
+}
+section article h1 {
+  color: var(--very-dark-blue);
+  font-size: 65px;
+  margin: 30px 0;
+}
+section article p {
+  color: var(--dark-grayish-blue);
+  margin-bottom: 60px;
+  max-width: 290px;
+  line-height: 1.5;
+}
+section article button {
+  border: none;
+  background-color: var(--red);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: .2s;
+}
+section article button:hover {
+  background-color: hsl(0deg 100% 68% / 75%);
+}
+section article > span {
+  color: var(--grayish-blue);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: 16px;
+}
+section .illust {
+  background-image: url("./images/illustration-devices.svg");
+  width: 50%;
+  height: 455px;
+  background-size: cover;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(58%);
+  right: 0;
+}
+
+@media (max-width: 1030px) {
+  section article h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1085px) {
+  section article button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  section article > span {
+    letter-spacing: 3px;
+    margin-left: 10px;
+  }
+  section .illust {
+    height: 400px;
+  }
+}
+@media (max-width: 900px) {
+  header {
+    padding: 40px 50px;
+  }
+  section article {
+    padding: 0 0 0 50px;
+  }
+}
+@media (max-width: 750px) {
+  header {
+    padding: 30px 35px;
+  }
+  section {
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 50px;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  section article {
+    padding: 0 35px;
+    width: 100%;
+    margin: auto;
+  }
+  section .illust {
+    width: 100%;
+    position: relative;
+    transform: translateY(0);
+    margin-left: 150px;
+    height: 350px;
+  }
+}
+@media (max-width: 675px) {
+  section {
+    padding: 20px 0;
+  }
+  section article .subTitle span:last-of-type {
+    padding-left: 10px;
+  }
+  section .illust {
+    max-height: 315px;
+    margin-left: 120px;
+  }
+}
+@media (max-width: 520px) {
+  body {
+    font-size: 16px;
+  }
+  header nav ul {
+    display: none;
+  }
+  header nav.open ul {
+    background-color: #FFF;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 90px;
+    width: calc(100% - 60px);
+    flex-direction: column;
+    gap: 30px;
+    z-index: 1;
+    box-shadow: -5px 5px 15px hsl(231deg 7% 65% / 39%);
+  }
+  header nav.open ul li.dot {
+    height: 1px;
+    width: 100%;
+  }
+  header nav .toggle {
+    display: block;
+  }
+  header nav.open .toggle img:first-of-type {
+    display: none;
+  }
+  section article h1 {
+    font-size: 41px;
+  }
+  section .illust {
+    margin-left: 0px;
+  }
+} 
