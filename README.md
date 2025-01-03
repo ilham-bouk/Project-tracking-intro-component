@@ -1,6 +1,11 @@
 # Frontend Mentor - Project tracking intro component solution
 
-This is a solution to the [Project tracking intro component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/project-tracking-intro-component-5d289097500fcb331a67d80e). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![Design preview for the Sunnyside agency landing page coding challenge](design/desktop-preview.jpg)
+
+## Welcome! 👋
+
+Thanks for checking out my solution of Project tracking intro component front-end coding challenge from Frontend Mentor.<br>
+[Frontend Mentor](https://www.frontendmentor.io) challenges improve coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -9,22 +14,22 @@ This is a solution to the [Project tracking intro component challenge on Fronten
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
 ### The challenge
+
+This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS. The challenge is to build out this landing page and get it looking as close to the design as possible.
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Create the background shape using code
+
+I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ### Links
 
@@ -34,52 +39,28 @@ Users should be able to:
 ## My process
 
 ### Built with
-
+ 
 - Semantic HTML5 markup
 - CSS custom properties
+- JavaScript
 - Flexbox
 - CSS Grid
-- Disk-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
+- Desktop-first workflow
 
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+You will find all the required assets in the `/design` folder. The assets are already optimized.
+There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-
-
+- Frontend Mentor - [@ilham-bouk](https://www.frontendmentor.io/profile/ilham-bouk)
+- LinkedIn - [Ilham Bouktir](https://www.linkedin.com/in/ilham-bouktir-0b266b31b)
 
 ## Acknowledgments
 
+A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+
+**Happy coding!** ☺️🚀
