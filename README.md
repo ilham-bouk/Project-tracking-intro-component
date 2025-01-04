@@ -48,7 +48,7 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 - CSS Grid
 - Desktop-first workflow
 
-You will find all the required assets in the `/design` folder. The assets are already optimized.
+You will find all the required assets in the `/design` folder. The assets are already optimized.<br>
 There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
 ### Useful resources
